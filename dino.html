@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>New Tab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dino.css" type="text/css">
+</head>
+
+<body>
+    <div class="pure-g dino">
+        <div class="pure-u-1-1">
+            <img src="dino-head.png" width="128px" />
+        </div>
+        <div class="pure-u-1-1">
+            <p class="fact"></p>
+            <div class="twitterContainer">
+                <a href="https://twitter.com/share" data-size="large" data-hashtags="dinofacts" data-count="none" data-url="http://bit.ly/1zCQ5lN" data-text="" class="twitter-share-button">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+    ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-wjs');
+    </script>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="facts.js" type="text/javascript"></script>
+</body>
+
+</html>
