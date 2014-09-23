@@ -8,7 +8,7 @@ html, body {
     margin-top: 5em;
     text-align: center;
 }
-.quote {
+.fact {
     text-align: center;
     font-size: 1.45em;
     margin-top: 1.5em;
@@ -22,11 +22,15 @@ span {
 }
 .twitterContainer {
     position: absolute;
-    height: 800px;
+    width:80px;
+    height: 80px;
     z-index: 15;
     top: 50%;
     left: 50%;
     margin: 0px 0 0 -40px;
+}
+#twitter-widget-0 {
+    width:80px  !important;
 }
 
 /*!
